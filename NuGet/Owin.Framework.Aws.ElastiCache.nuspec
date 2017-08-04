@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<package >
+  <metadata>
+    <id>Owin.Framework.Aws.ElastiCache</id>
+    <version>2.5.0</version>
+    <title>Owin.Framework.Aws.ElastiCache</title>
+    <authors>Martin Halliday</authors>
+    <owners>Martin Halliday</owners>
+    <requireLicenseAcceptance>false</requireLicenseAcceptance>
+    <description>Owin Framework facility that implements ICache using the AWS ElastiCache service</description>
+    <copyright>Copyright Martin Halliday 2017</copyright>
+    <releaseNotes>First version</releaseNotes>
+    <summary>This facility provides a caching mechanism to the OWIN Framework using the Amazon ElastiCache service. You must have an Amazon Web Services account to use this package.</summary>
+    <projectUrl>https://github.com/Bikeman868/OwinFramework.Aws</projectUrl>
+    <tags>OWIN framework AWS Amazon ElastiCache</tags>
+    <dependencies>
+      <dependency id="Owin.Framework" version="2.5.6" />
+      <dependency id="Ioc.Modules" version="1.1.4" />
+      <dependency id="Newtonsoft.Json" version="7.0.1" />
+    </dependencies>
+    <references>
+    </references>
+  </metadata>
+  <files>
+    <file src="..\OwinFramework.Aws.ElastiCache\bin\Net40\Release\OwinFramework.Aws.ElastiCache.dll" target="lib\net40"/>
+    <file src="..\OwinFramework.Aws.ElastiCache\bin\Net45\Release\OwinFramework.Aws.ElastiCache.dll" target="lib\net45"/>
+    <file src="..\*.md" target=""/>
+  </files>
+</package>
